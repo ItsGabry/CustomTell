@@ -14,6 +14,3 @@ With this plugin you can change the format of /tell, which is used to send priva
 
 ![photo_2020-05-25_18-08-41](https://user-images.githubusercontent.com/35745567/82829120-cb46bf00-9eb2-11ea-9a38-5af55d8d5139.jpg)
 
-
-SenderMessage: '§e[{sender} ⇝  {recipient}] §a{message}'
-RecipientMessage: '§e[{sender} ⇝   {recipient}] §a{message}'
