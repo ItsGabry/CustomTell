@@ -14,3 +14,4 @@ With this plugin you can change the format of /tell, which is used to send priva
 
 ![photo_2020-05-25_18-08-41](https://user-images.githubusercontent.com/35745567/82829120-cb46bf00-9eb2-11ea-9a38-5af55d8d5139.jpg)
 
+The SenderMessage is the message that is sent to the player who does /tell, while the RecipientMessage is the message that is sent to the recipient of the private message.
