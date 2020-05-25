@@ -5,10 +5,10 @@ With this plugin you can change the format of /tell, which is used to send priva
 
 # Features:
 - You can change the color of the message or some parts 
-- You can changethe [] that are on the edges
+- You can change the "[]" that are on the edges
 - You can change the separator "->"
+- You will not have to set any permissions as the plugin uses the default pocketmine permission
 - Config in plugin_data
-- You will not have to set any permissions as the plugin uses the default pocketmine permission.
 
 # Config:
 
