@@ -1,7 +1,19 @@
 # CustomTell
 With this plugin you can change the format of /tell, which is used to send private messages to a player. 
-The default writing is white, with no possibility to change the format, instead with this plugin you can do it, you can change the color of the message or some parts, the [] that are on the edges, and the separator "->", obviously a config is available to do this. 
-You will not have to set any permissions as the plugin uses the default pocketmine permission.
 
 ![Screenshot (491)](https://user-images.githubusercontent.com/35745567/82828045-8de13200-9eb0-11ea-8652-1055263127d8.png)
 
+#Features:
+- You can change the color of the message or some parts 
+- You can changethe [] that are on the edges
+- You can change the separator "->"
+- Config in plugin_data
+- You will not have to set any permissions as the plugin uses the default pocketmine permission.
+
+#Config:
+
+![photo_2020-05-25_18-08-41](https://user-images.githubusercontent.com/35745567/82829120-cb46bf00-9eb2-11ea-9a38-5af55d8d5139.jpg)
+
+
+SenderMessage: '§e[{sender} ⇝  {recipient}] §a{message}'
+RecipientMessage: '§e[{sender} ⇝   {recipient}] §a{message}'
