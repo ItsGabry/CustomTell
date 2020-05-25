@@ -17,7 +17,6 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
      * @var Main
      */
     private $plugin;
-
     /**
      * CustomTell constructor.
      * @param string $name
@@ -33,7 +32,6 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         );
         $this->setPermission("pocketmine.command.tell");
     }
-
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         if (!$this->testPermission($sender)) {
             return true;
@@ -41,7 +39,6 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         if (count($args) < 2) {
             throw new InvalidCommandSyntaxException();
         }
-
         $player = $sender->getServer()->getPlayer(array_shift($args));
         if ($player === $sender) {
             $sender->sendMessage(new TranslationContainer(TextFormat::RED . "%commands.message.sameTarget"));
