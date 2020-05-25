@@ -22,6 +22,7 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
      * @param string $name
      * @param Main $plugin
      */
+    
     public function __construct(string $name, Main $plugin) {
         $this->plugin = $plugin;
         parent::__construct(
@@ -32,6 +33,7 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         );
         $this->setPermission("pocketmine.command.tell");
     }
+    
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         if (!$this->testPermission($sender)) {
             return true;
@@ -56,6 +58,7 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         }
         return true;
     }
+    
     public function getPlugin(): Plugin{
         return $this->plugin;
     }
