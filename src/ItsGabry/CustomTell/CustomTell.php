@@ -38,18 +38,15 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         if (!$this->testPermission($sender)) {
             return true;
         }
-
         if (count($args) < 2) {
             throw new InvalidCommandSyntaxException();
         }
 
         $player = $sender->getServer()->getPlayer(array_shift($args));
-
         if ($player === $sender) {
             $sender->sendMessage(new TranslationContainer(TextFormat::RED . "%commands.message.sameTarget"));
             return true;
         }
-
         if ($player instanceof Player) {
             $name = $sender instanceof Player ? $sender->getDisplayName() : $sender->getName();
             $message = implode(" ", $args);
@@ -60,7 +57,6 @@ class CustomTell extends VanillaCommand implements PluginIdentifiableCommand {
         } else {
             $sender->sendMessage(new TranslationContainer("commands.generic.player.notFound"));
         }
-
         return true;
     }
     public function getPlugin(): Plugin{
