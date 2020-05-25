@@ -18,4 +18,3 @@ The SenderMessage is the message that is sent to the player who does /tell, whil
 
 [![](https://poggit.pmmp.io/shield.state/CustomTell)](https://poggit.pmmp.io/p/CustomTell)
 
-<a href="https://poggit.pmmp.io/p/CustomTell"><img src="https://poggit.pmmp.io/shield.state/CustomTell"></a>
